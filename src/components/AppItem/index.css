@@ -1,0 +1,39 @@
+.app-image {
+  height: 110px;
+  width: 110px;
+  margin-top: 10px;
+}
+
+.app-name {
+  font-family: 'Bree Serif';
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.app-list {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  height: 200px;
+  width: 180px;
+}
+
+@media screen and (max-width: 576px) {
+  .app-list {
+    height: 135px;
+    width: 115px;
+  }
+  .app-image {
+    height: 55px;
+    width: 55px;
+  }
+  .app-name {
+    font-size: 14;
+  }
+}

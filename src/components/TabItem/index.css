@@ -1,0 +1,26 @@
+.tab-button {
+  border-style: none;
+  border-bottom: solid;
+  border-bottom-color: #dfe2e5;
+  outline: none;
+  color: #7b8794;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: bold;
+  background-color: transparent;
+  width: 110px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.active {
+  border-bottom-color: #2563eb;
+  color: #2563eb;
+}
+
+@media screen and (max-width: 576px) {
+  .tab-button {
+    width: 68px;
+    font-size: 16px;
+  }
+}
